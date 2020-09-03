@@ -30,7 +30,7 @@
 # Enable autocomplete layer
 [[layers]]
 name = 'autocomplete'
-auto_completion_return_key_behavior = "complete"
+auto_completion_return_key_behavior = "nil"
 auto_completion_tab_key_behavior = "smart"
 
 [[layers]]
@@ -59,3 +59,9 @@ name = "VersionControl"
 [[layers]]
 name = 'git'
 git-plugin = 'fugitive'
+
+[[layers]]
+name = 'lang#html'
+
+[[custom_plugins]]
+repo = 'aoswalt/vim-textobj-elixir'
