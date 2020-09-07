@@ -48,6 +48,9 @@ filetypes = ["elixir"]
   elixir = ["/home/maxs/.elixir-ls/release/language_server.sh"]
 
 [[layers]]
+name = 'lang#javascript'
+
+[[layers]]
 name = 'ctrlp'
 
 [[layers]]
