@@ -43,7 +43,7 @@ name = 'lang#elixir'
 
 [[layers]]
 name = 'lsp'
-filetypes = ["elixir"]
+filetypes = ["elixir", "ruby"]
 [layers.override_cmd]
   elixir = ["/home/maxs/.elixir-ls/release/language_server.sh"]
 
@@ -70,5 +70,13 @@ name = 'lang#html'
 name = "lang#python"
 python_interpreter = "python3"
 
+[[layers]]
+name = 'lang#ruby'
+enabled_linters = ['rubocop']
+
 [[custom_plugins]]
 repo = 'aoswalt/vim-textobj-elixir'
+[[custom_plugins]]
+repo = 'tpope/vim-rails'
+[[custom_plugins]]
+repo = 'nelstrom/vim-textobj-rubyblock'
