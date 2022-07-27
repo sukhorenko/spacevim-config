@@ -6,6 +6,9 @@ func! myconf#before() abort
   nnoremap <leader>w :w<cr>
   " this mapping means using `,w` to save current file.
 
+  nnoremap <leader>a :A<cr>
+  nnoremap <leader>r :R<cr>
+
   inoremap AA <Esc>A
   inoremap OO <Esc>O
   let g:vim_textobj_elixir_mapping = 'x'
